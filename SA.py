@@ -71,8 +71,8 @@ def Text_Processing(Text):
     return(" ".join(Processed_Text))
 
 
-vectorizer = pickle.load(open('C:/Users/HP/Desktop/tf_idf_model.pkl','rb'))
-model = pickle.load(open('C:/Users/HP/Desktop/mnb_model.plk','rb'))
+vectorizer = pickle.load(open('tf_idf_model.pkl','rb'))
+model = pickle.load(open('mnb_model.plk','rb'))
 
 if st.button('Analyze'):
 
